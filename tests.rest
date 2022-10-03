@@ -1,0 +1,13 @@
+### Add scope to role
+POST http://localhost:8081/roles/rol_phcOfjm6ejoOVLt1/scopes/Projects:write
+
+### Remove scope from role
+DELETE http://localhost:8081/roles/rol_phcOfjm6ejoOVLt1/scopes/Projects:write
+
+### Add role to user
+POST http://localhost:8081/users/auth0%7C6336a46abcf429fac8f37e6e/roles/rol_phcOfjm6ejoOVLt1
+###
+POST http://localhost:8081/users/auth0%7C6336a46abcf429fac8f37e6e/roles/rol_7EOBike8q6zSHqdA
+
+### Remove role from user
+DELETE http://localhost:8081/users/auth0%7C6336a46abcf429fac8f37e6e/roles/rol_phcOfjm6ejoOVLt1
